@@ -33,7 +33,7 @@
             <TextBox x:Name="Club" Text="test" VerticalAlignment="Top" Margin="10,92,10,0" Height="25"
                 VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1"/>
             <Label Content="ФИО:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,128,10,0"/>
-            <TextBox x:Name="FIO" VerticalAlignment="Top" Margin="10,154,10,10" Height="25" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="FIO" VerticalAlignment="Top" Margin="10,154,10,10" Height="25" Grid.ColumnSpan="2" IsEnabled="False"/>
         </Grid>
     </Grid>
 </UserControl>

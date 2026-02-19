@@ -28,5 +28,15 @@ namespace Pr29
         {
             frame.Navigate(Page);
         }
+
+        private void Users(object sender, RoutedEventArgs e)
+        {
+            OpenPages(new Pages.Users.Main());
+        }
+
+        private void Club(object sender, RoutedEventArgs e)
+        {
+            OpenPages(new Pages.Clubs.Main());
+        }
     }
 }

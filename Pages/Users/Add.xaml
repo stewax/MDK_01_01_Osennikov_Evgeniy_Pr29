@@ -23,16 +23,16 @@
             </Grid.ColumnDefinitions>
             <Label Content="Дата аренды:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0"/>
             <DatePicker x:Name="RentStart" VerticalAlignment="Top" Margin="10,36,10,0" Height="26"
-            VerticalContentAlignment="Center" IsEnabled="False"/>
+            VerticalContentAlignment="Center"/>
             <Label Content="Время аренды:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,66,0,0"/>
-            <TextBox x:Name="RentTime" Text="14:00" VerticalAlignment="Top" Margin="10,92,10,0" Height="25"
-            VerticalContentAlignment="Center" IsEnabled="False"/>
+            <TextBox x:Name="RentTime" VerticalAlignment="Top" Margin="10,92,10,0" Height="25"
+            VerticalContentAlignment="Center"/>
             <Label Content="Продолжительность:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Column="1"/>
-            <TextBox x:Name="Duration" Text="Продолжительность" VerticalAlignment="Top" Margin="10,36,10,0" Height="26"
-            VerticalContentAlignment="Center" Grid.Column="1" IsEnabled="False"/>
+            <TextBox x:Name="Duration"  VerticalAlignment="Top" Margin="10,36,10,0" Height="26"
+            VerticalContentAlignment="Center" Grid.Column="1"/>
             <Label Content="Клуб:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,66,0,0" Grid.Column="1"/>
-            <ComboBox x:Name="Clubs" Text="test" VerticalAlignment="Top" Margin="10,92,10,0" Height="25"
-            VerticalContentAlignment="Center" IsEnabled="False" Grid.Column="1"/>
+            <ComboBox x:Name="Clubs" VerticalAlignment="Top" Margin="10,92,10,0" Height="25"
+            VerticalContentAlignment="Center" Grid.Column="1"/>
             <Label Content="ФИО:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,128,10,0"/>
             <TextBox x:Name="FIO" VerticalAlignment="Top" Margin="10,154,10,10" Height="25" Grid.ColumnSpan="2"/>
         </Grid>

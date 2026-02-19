@@ -22,14 +22,14 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Label Content="Наименование:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0"/>
-            <TextBox x:Name="Name" Text="Наименование" VerticalAlignment="Top" Margin="10,36,10,0" Height="26"
-                VerticalContentAlignment="Center" IsEnabled="False"/>
+            <TextBox x:Name="Name" VerticalAlignment="Top" Margin="10,36,10,0" Height="26"
+                VerticalContentAlignment="Center"/>
             <Label Content="Адрес:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,66,0,0"/>
-            <TextBox x:Name="Address" Text="Адрес" VerticalAlignment="Top" Margin="10,92,10,0" Height="25"
-                VerticalContentAlignment="Center" IsEnabled="False"/>
+            <TextBox x:Name="Address"  VerticalAlignment="Top" Margin="10,92,10,0" Height="25"
+                VerticalContentAlignment="Center"/>
             <Label Content="Время работы:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Column="1"/>
-            <TextBox x:Name="WorkTime" Text="Время работы" VerticalAlignment="Top" Margin="10,36,10,0" Height="81"
-                VerticalContentAlignment="Center" Grid.Column="1" IsEnabled="False"/>
+            <TextBox x:Name="WorkTime" VerticalAlignment="Top" Margin="10,36,10,0" Height="81"
+                VerticalContentAlignment="Center" Grid.Column="1"/>
         </Grid>
     </Grid>
 </Page>

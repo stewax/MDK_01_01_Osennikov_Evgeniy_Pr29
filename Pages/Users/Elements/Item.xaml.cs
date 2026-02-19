@@ -30,7 +30,7 @@ namespace Pr29.Pages.Users.Elements
 
             this.FIO.Text = User.FIO;
             this.RentStart.Text = User.RentStart.ToString("yyyy-MM-dd");
-            this.RentTime.Text = User.RentTime.ToString("HH:mm");
+            this.RentTime.Text = User.RentStart.ToString("HH:mm");
             this.Duration.Text = User.Duration.ToString();
             this.Club.Text = AllClub.Clubs.Where(x => x.Id == User.IdClub).First().Name;
 
