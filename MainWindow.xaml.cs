@@ -16,9 +16,17 @@ namespace Pr29
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static MainWindow init;
         public MainWindow()
         {
             InitializeComponent();
+            init = this;
+            OpenPages(new Pages.Clubs.Main());
+        }
+
+        public void OpenPages(Page Page)
+        {
+            frame.Navigate(Page);
         }
     }
 }
